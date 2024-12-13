@@ -1,0 +1,14 @@
+*{
+    margin-left: 50px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul {
+    list-style-type: none; /* Default bullets ko remove karte hain */
+    padding-left: 20px; /* Thoda padding deta hai */
+  }
+
+  li::before {
+    content: icon;
+    }
